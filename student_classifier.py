@@ -1,11 +1,11 @@
 #!usr/bin/python
 '''
-CLassifies student according to credits taken
+CLassifies students based on credits taken
 '''
 
 
 while True:
-    credits = input("Enter credits taken: ")
+    credits = input("How many credits have you taken: ")
     try:
         credits = int(credits)
         break
@@ -15,12 +15,12 @@ while True:
  
    
 if credits <= 23:
-    print("Freshman")
+    print("You are still a freshman")
 elif credits > 23 and credits <= 53:
-    print("Sophomore")
+    print("You are Sophomore")
 
 elif credits >= 54 and credits <= 83:
-    print("Junior")
+    print("You are Junior")
 else: 
-    print("Senior")
+    print("Wow, You are Senior")
 

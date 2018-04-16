@@ -2,14 +2,14 @@
 '''this program converts centimeters to inches'''
 
 while True:
-    centimeters = input("enter centimeters: ")
+    centimeters = input("Enter centimeters: ")
     try:
-        centimeters = int(centimeters)
+        centimeters = float(centimeters)
     except:
         continue
     
     if centimeters < 0:
-        print("the entry is invalid")
+        print("The entry is invalid")
         
     else:
         break
