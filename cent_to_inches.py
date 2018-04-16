@@ -16,6 +16,6 @@ while True:
         
         
 inches = 2.54 * centimeters
-print (inches)
+print (inches, "inches")
 	
 
